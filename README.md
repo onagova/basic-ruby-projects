@@ -1,3 +1,3 @@
-# Caesar Cipher
+# Basic Ruby Projects
 
-My solution to The Odin Project's [Caesar Cipher assingment](https://theodinproject.com/lessons/caesar-cipher).
+My solutions to [The Odin Project's Basic Ruby Projects](https://theodinproject.com/courses/ruby-programming).
