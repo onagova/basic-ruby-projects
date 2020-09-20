@@ -32,15 +32,15 @@ def is_lower_case?(char)
   char.ord.between?(LOWER_CASE_A_ORD, LOWER_CASE_Z_ORD)
 end
 
-loop do
-  print "Shifting Text: "
-  shifting_text = gets.chomp
-  print "Shift Factor: "
-  shift_factor = gets.chomp.to_i
+# loop do
+#   print "Shifting Text: "
+#   shifting_text = gets.chomp
+#   print "Shift Factor: "
+#   shift_factor = gets.chomp.to_i
 
-  puts "=> #{caesar_cipher(shifting_text, shift_factor)}"
+#   puts "=> #{caesar_cipher(shifting_text, shift_factor)}"
 
-  print "Continue? [Y/n] "
-  continue_response = gets.chomp
-  break unless continue_response.downcase == 'y'
-end
+#   print "Continue? [Y/n] "
+#   continue_response = gets.chomp
+#   break unless continue_response.downcase == 'y'
+# end
